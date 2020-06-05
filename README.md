@@ -94,3 +94,51 @@ Postman is extremely valuable for functional testers and developers.
 
 
 
+LOCATORS
+
+Locating elements in Selenium WebDriver is performed with the help of
+findElement() and findElements() methods provided by WebDriver and
+WebElement class.
+—> findElement() returns a WebElement object based on a specified search
+criteria or ends up throwing an exception if it does not find any element
+matching the search criteria.
+—> findElements() returns a list of WebElements matching the search criteria.
+If no elements are found, it returns an empty list.
+
+Method :
+Syntax :
+Description :
+
+By ID 
+driver.findElement(By.id(<element ID>)) 
+Locates an element using the ID attribute
+
+By name
+driver.findElement(By.name(<element name>)) 
+Locates an element using the Name attribute
+
+By class name
+driver.findElement(By.className(<element class>)) 
+Locates an element using the Class attribute
+
+By tag name
+driver.findElement(By.tagName(<htmltagname>)) 
+Locates an element using the HTML tag
+
+By link text
+driver.findElement(By.linkText(<linktext>)) 
+Locates a link using link text
+
+By partial link text
+driver.findElement(By.partialLinkText(<linktext>)) 
+Locates a link using the link's partial text
+
+By CSS 
+driver.findElement(By.cssSelector(<css selector>)) 
+Locates an element using the CSS selector
+
+By XPath
+driver.findElement(By.xpath(<xpath>)) 
+Locates an element using XPath query
+
+
