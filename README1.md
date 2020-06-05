@@ -4,6 +4,7 @@ Both Severity and Priority are attributes of a defect and should be provided in 
 This information is used to determine how quickly a bug should be fixed.
 
 Severity vs. Priority
+
 Severity of a defect is related to how severe a bug is. Usually the severity is defined in terms of financial loss, damage to environment, company’s reputation and loss of life.
 Priority of a defect is related to how quickly a bug should be fixed and deployed to live servers. When a defect is of high severity, most likely it will also have a high priority. Likewise, a low severity defect will normally have a low priority as well.
 Although it is recommended to provide both Severity and Priority when submitting a defect report, many companies will use just one, normally priority.
